@@ -1,0 +1,62 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013a (8.1.0.604) 64-bit (glnxa64)
+                             February 15, 2013
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+Running Script1_CvtPtsFmt.m ...
+
+ScanPtsPathName to be processed: /projectnb/echidna/lidar/zhanli86/workspace/data/projects/brisbane-dual-wavelength-spectra/gold0101-dwel-data/gold0101-dwel-data-pts
+ScanPtsFileName to be processed: Aug3_BFP_Merged_Cube_NadirCorrect_Aligned_dual_cube_bsfix_pxc_update_atp2_ptcl_points.txt
+InPtsPathName for the following scripts: /projectnb/echidna/lidar/zhanli86/workspace/data/projects/brisbane-dual-wavelength-spectra/gold0101-dwel-data/gold0101-dwel-data-pts/tmp-ties-tls
+InPtsFileName for the following scripts: Aug3_BFP_Merged_Cube_NadirCorrect_Aligned_dual_cube_bsfix_pxc_update_atp2_ptcl_points_xyz.txt
+Script1_CvtPtsFmt finished!
+
+Running Script2_FilteringVarTIN.m ...
+
+InPtsPathName: /projectnb/echidna/lidar/zhanli86/workspace/data/projects/brisbane-dual-wavelength-spectra/gold0101-dwel-data/gold0101-dwel-data-pts/tmp-ties-tls
+InPtsFileName: Aug3_BFP_Merged_Cube_NadirCorrect_Aligned_dual_cube_bsfix_pxc_update_atp2_ptcl_points_xyz.txt
+GroundPtsPathName: /projectnb/echidna/lidar/zhanli86/workspace/data/projects/brisbane-dual-wavelength-spectra/gold0101-dwel-data/gold0101-dwel-data-pts/tmp-ties-tls
+GroundPtsFileName: Aug3_BFP_Merged_Cube_NadirCorrect_Aligned_dual_cube_bsfix_pxc_update_atp2_ptcl_points_xyz_ground.txt
+
+Local minimum possible.
+
+lsqnonlin stopped because the final change in the sum of squares relative to 
+its initial value is less than the default value of the function tolerance.
+
+
+
+XoY bounding box: 
+minx	maxx	miny	maxy
+-75.081	62.877	-69.401	45.243
+Script2_FilteringVarTIN finished!
+
+Running Script3_Points2DEM.m ...
+
+[Warning: Duplicate data points have been detected and removed.
+ The Triangulation indices are defined with respect to the unique set of points
+ in delaunayTriangulation property X.] 
+[> In Script3_Points2DEM at 56
+  In run at 64
+  In Script_MultiScanAsciiPts2TrkCtr at 85
+  In run at 64] 
+Script3_Points2DEM finished!
+
+Running Script4_TrkCtrMultiScanLayer_Step1.m ...
+
+Read points from /projectnb/echidna/lidar/zhanli86/workspace/data/projects/brisbane-dual-wavelength-spectra/gold0101-dwel-data/gold0101-dwel-data-pts/tmp-ties-tls/Aug3_BFP_Merged_Cube_NadirCorrect_Aligned_dual_cube_bsfix_pxc_update_atp2_ptcl_points_xyz.txt ...
+Voxelize the point cloud ...
+Search stems through continuity ...
+Extract the layer above the ground ...
+Classify stems: ...
+
+Running Script4_TrkCtrMultiScanLayer_Step2.m ...
+
+Estimate trunk center with circle fitting ...
+Script4_TrkCtrMultiScanLayer_2 finished!
+>> 
