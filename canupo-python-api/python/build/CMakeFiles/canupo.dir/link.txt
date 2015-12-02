@@ -1,1 +1,0 @@
-/usr/local/IT/gcc-4.8.1/bin/g++  -fPIC -g   -shared -Wl,-soname,canupo.so -o canupo.so CMakeFiles/canupo.dir/py_canupo.cpp.o /projectnb/echidna/lidar/zhanli86/lib/libboost_python.so -Wl,-rpath,/projectnb/echidna/lidar/zhanli86/lib 
