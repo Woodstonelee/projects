@@ -1,0 +1,7 @@
+# Large data #
+##################
+data
+
+# IPython notbook checkpoint #
+##############################
+*/.ipynb_checkpoints/
