@@ -1,0 +1,2 @@
+# ignore any IPython notbook checkpoint
+.ipynb_checkpoints/
